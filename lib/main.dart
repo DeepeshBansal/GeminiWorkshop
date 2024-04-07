@@ -4,7 +4,7 @@ import 'package:temp/stream.dart';
 
 
 void main() async {
-  /// flutter run --dart-define=apiKey='AIzaSyB-OYhSTK36uwHD6Bz4I10OmOFCTa2dtBQ'
+  /// flutter run --dart-define=apiKey='apiKey'
   Gemini.init(
       apiKey: const String.fromEnvironment('apiKey'), enableDebugging: true);
   runApp(const MyApp());
